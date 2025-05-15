@@ -88,5 +88,4 @@ Functionality Overview:
 **X. Dev/Prod Parity:** Docker ensures consistent environments across development and production, minimizing discrepancies.
 **XI. Logs:** Both frontend and backend use structured logging (logging and loguru) to stream logs for monitoring and debugging.
 **XII. Admin Processes:** Administrative tasks (e.g., model loading in ml_models.py) are integrated into the codebase and run within the same environment.
-**Current Challenge and Planned Enhancement: **The application functions correctly but cannot display images in the Docker container due to missing local image files. You plan to integrate the Google Drive API to fetch COCO dataset images, using image paths or IDs from the search_images function (top_k_indices), aligning with the 12 Factor principle of treating backing services (Google Drive) as attachable resources.
-![image](https://github.com/user-attachments/assets/4739ee52-1499-4bce-a351-f26911bf7545)
+**Current Challenge and Planned Enhancement: **The application functions correctly but cannot display images in the Docker container due to missing local image files. You plan to integrate the Google Drive API to fetch COCO dataset images, using image paths or IDs from the search_images function (top_k_indices), aligning with the 12 Factor principle of treating backing services 
