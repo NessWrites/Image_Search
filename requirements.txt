@@ -1,0 +1,19 @@
+loguru
+mkdocs
+pip
+pytest
+python-dotenv
+ruff
+tqdm
+typer
+cookiecutter-data-science
+
+pandas
+streamlit==1.38.0
+torch>=2.4.1
+torchvision>=0.19.1
+transformers>=4.44.2
+pillow>=10.4.0
+matplotlib>=3.9.2
+numpy>=1.26.4
+-e .
