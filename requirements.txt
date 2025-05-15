@@ -16,6 +16,7 @@ transformers>=4.44.2
 pillow>=10.4.0
 matplotlib>=3.9.2
 numpy>=1.26.4
+feature/fastapi
 uvicorn>=0.30.6
 fastapi>=0.115.0
 -e .

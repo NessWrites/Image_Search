@@ -2,19 +2,20 @@ import logging
 import os
 
 import matplotlib.pyplot as plt
+from ml_models import load_models_and_tokenizer
 import numpy as np
 from PIL import Image, UnidentifiedImageError
 import streamlit as st
 import torch
 import torchvision.transforms as transforms
 
-import config
-from ml_models import load_models_and_tokenizer
+from config import (
+    RESNET_EMBEDDINGS_PATH,
+    RESNET_MODEL_PATH,
+    VIT_EMBEDDINGS_PATH,
+    VIT_MODEL_PATH,
+)
 
-RESNET_EMBEDDINGS_PATH = config.RESNET_EMBEDDINGS_PATH
-RESNET_MODEL_PATH = config.RESNET_MODEL_PATH
-VIT_EMBEDDINGS_PATH = config.VIT_EMBEDDINGS_PATH
-VIT_MODEL_PATH = config.VIT_MODEL_PATH
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
